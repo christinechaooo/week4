@@ -19,6 +19,7 @@
 		773D2AF21962F8C900257712 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 773D2ADA1962F8C900257712 /* UIKit.framework */; };
 		773D2AFA1962F8C900257712 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 773D2AF81962F8C900257712 /* InfoPlist.strings */; };
 		773D2AFC1962F8C900257712 /* week4Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 773D2AFB1962F8C900257712 /* week4Tests.m */; };
+		773D2B071963026200257712 /* CanvasViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 773D2B061963026200257712 /* CanvasViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,6 +49,8 @@
 		773D2AF71962F8C900257712 /* week4Tests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "week4Tests-Info.plist"; sourceTree = "<group>"; };
 		773D2AF91962F8C900257712 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		773D2AFB1962F8C900257712 /* week4Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = week4Tests.m; sourceTree = "<group>"; };
+		773D2B051963026200257712 /* CanvasViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CanvasViewController.h; sourceTree = "<group>"; };
+		773D2B061963026200257712 /* CanvasViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CanvasViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -111,6 +114,8 @@
 				773D2AE61962F8C900257712 /* AppDelegate.m */,
 				773D2AE81962F8C900257712 /* Images.xcassets */,
 				773D2ADD1962F8C900257712 /* Supporting Files */,
+				773D2B051963026200257712 /* CanvasViewController.h */,
+				773D2B061963026200257712 /* CanvasViewController.m */,
 			);
 			path = week4;
 			sourceTree = "<group>";
@@ -241,6 +246,7 @@
 			files = (
 				773D2AE71962F8C900257712 /* AppDelegate.m in Sources */,
 				773D2AE31962F8C900257712 /* main.m in Sources */,
+				773D2B071963026200257712 /* CanvasViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
